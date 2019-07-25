@@ -1,0 +1,15 @@
+name: ${project.name}
+version: ${project.version}
+main: com.extendedclip.ezchatformat.EZChatFormat
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+authors: [clip]
+description: A straight to the point chat formatting plugin
+website: https://extendedclip.com
+commands:
+  ezchatformat:
+    description: EZChatFormat admin commands
+permissions:
+  ezchatformat.admin:
+    description: ability to use admin commands
+    default: op
